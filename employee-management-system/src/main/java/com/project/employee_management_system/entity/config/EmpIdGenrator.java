@@ -14,7 +14,7 @@ public class EmpIdGenrator implements IdentifierGenerator {
 	@Override
 	public Object generate(SharedSessionContractImplementor session, Object object) {
 		// TODO Auto-generated method stub
-		String pre= "EMP";
+		String prefix= "EMP";
 		int suf=0;
 		
 		JdbcConnectionAccess access = session.getJdbcConnectionAccess();
@@ -29,7 +29,7 @@ public class EmpIdGenrator implements IdentifierGenerator {
 			e.printStackTrace();
 		}
 		
-		return pre+suf;
+		return prefix+suf;
 	}
 
 }
