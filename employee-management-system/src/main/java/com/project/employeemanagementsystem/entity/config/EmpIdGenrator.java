@@ -1,4 +1,4 @@
-package com.project.employee_management_system.entity.config;
+package com.project.employeemanagementsystem.entity.config;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -21,9 +21,12 @@ public class EmpIdGenrator implements IdentifierGenerator {
 		try(Connection con = access.obtainConnection();
 				Statement st = con.createStatement();) {
 			
-			ResultSet set = st.executeQuery("select newVal('empid')");
-			set.next();
-			suf = set.getInt(1);
+			ResultSet set = st.executeQuery("SELECT nextval('empid')");
+			
+			while (set.next()) {
+				suf=set.getInt(1);
+				System.out.println(set.getInt(1));
+			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

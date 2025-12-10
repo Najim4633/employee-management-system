@@ -1,8 +1,8 @@
-package com.project.employee_management_system.repository;
+package com.project.employeemanagementsystem.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.project.employee_management_system.entity.Employee;
+import com.project.employeemanagementsystem.entity.Employee;
 
 public interface EmployeeDao extends JpaRepository<Employee, String> {
 
