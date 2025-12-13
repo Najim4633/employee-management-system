@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Home Page</title>
+	<style>
 </head>
 <body>
 	<jsp:include page="header.jsp" />
@@ -14,11 +15,13 @@
 
     <h3>Navigation</h3>
 
-    <ul>
-        <li><a href="form">Go to Form</a></li>
-        <li><a href="empform">Add Employee</a></li>
-        <li><a href="emplist">Add Tester</a></li>
-    </ul>
+	<div >
+    
+       <div > <a href="form">Go to Form</a></div>
+        <div ><a href="empform">Add Employee</a></div>
+       <div > <a href="emplist">Add Tester</a></div>
+   
+	</div>
 
 </body>
 </html>

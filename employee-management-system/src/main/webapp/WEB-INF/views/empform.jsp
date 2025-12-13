@@ -12,11 +12,12 @@
 
 
 
+		
         <label>Name:</label>
         <input type="text" name="name" required><br><br>
 
         <label>Salary:</label>
-        <input type="number" name="salary" step="0.01" required><br><br>
+        <input type="number" name="salary"  required><br><br>
 
         <label>Designation:</label>
         <input type="text" name="designation" required><br><br>

@@ -31,7 +31,7 @@
 
 <div class="nav">
     <a href="home">Home</a>
-    <a href="empform">Form</a>
+    <a href="empform">Employee Registerration</a>
     <a href="emplist">Employee</a>
 </div>
 
