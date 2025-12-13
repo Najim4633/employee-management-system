@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.project</groupId>
-	<artifactId>employee-management-system</artifactId>
+	<artifactId>empcrud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>employee-management-system</name>
 	<description>Demo project for Spring Boot</description>
@@ -83,6 +83,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
+<dependency>
+    <groupId>org.apache.tomcat.embed</groupId>
+    <artifactId>tomcat-embed-jasper</artifactId>
+    <version>11.0.7</version>
+</dependency>
 	</dependencies>
 
 	<build>

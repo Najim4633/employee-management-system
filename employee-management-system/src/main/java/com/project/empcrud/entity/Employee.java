@@ -1,8 +1,8 @@
-package com.project.employeemanagementsystem.entity;
+package com.project.empcrud.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 
-import com.project.employeemanagementsystem.entity.config.EmpIdGenrator;
+import com.project.empcrud.entity.config.EmpIdGenrator;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

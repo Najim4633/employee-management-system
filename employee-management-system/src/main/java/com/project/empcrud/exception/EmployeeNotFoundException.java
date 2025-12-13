@@ -1,4 +1,4 @@
-package com.project.employeemanagementsystem.exception;
+package com.project.empcrud.exception;
 
 public class EmployeeNotFoundException extends RuntimeException {
 

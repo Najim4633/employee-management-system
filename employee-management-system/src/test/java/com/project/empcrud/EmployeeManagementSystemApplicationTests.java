@@ -1,4 +1,4 @@
-package com.project.employee_management_system;
+package com.project.empcrud;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.project.employeemanagementsystem.entity.config;
+package com.project.empcrud.entity.config;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
